@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+route::get('halo',function(){
+    return "Belajar Laravel dong";
+});
+
+route::get('blog',function(){
+    return view('blog');
+});
